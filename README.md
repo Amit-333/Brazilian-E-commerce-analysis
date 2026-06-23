@@ -32,11 +32,13 @@ Brazilian e-commerce sales analysis with SQL, Python, data visualization, and bu
 
 ## Dataset
 
-This project uses four tables from the Brazilian E-Commerce Public Dataset by Olist:
+This analysis was conducted using four files from the Brazilian E-Commerce Public Dataset by Olist:
 
-- Customers
-- Orders
-- Order Items
-- Products
+|     Table   | Description |
+|-------------|-------------|
+| Customers   | Customer information and location data |
+| Orders      | Order status and purchase timestamps |
+| Order Items | Product-level sales and revenue information |
+| Products    | Product category and product attributes |
 
-These tables were used to analyze customer behavior, revenue trends, product performance, and operational efficiency.
+The four tables were joined using customer IDs, order IDs, and product IDs to perform end-to-end business analysis.
